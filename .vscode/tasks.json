@@ -1,0 +1,13 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++ -g StringToIntegerConverter.cpp DisplayAllCommand.cpp AppendCommand.cpp RemoveCommand.cpp PrintInfoCommand.cpp Person.cpp PrintInfoBookCommand.cpp InsertCommand.cpp StringToDoubleConverter.cpp Library.cpp TextMatches.cpp Main.cpp AddReaderCommand.cpp DeleteFromRowCommand.cpp Author.cpp SaveCommand.cpp Reader.cpp DisplayFromRowCommand.cpp SaveAsCommand.cpp AddAuthorCommand.cpp ExitCommand.cpp AddBookCommand.cpp MatchingRange.cpp HasWrittenBookCommand.cpp Command.cpp ReadCommand.cpp DeleteInRangeCommand.cpp RemoveBookCommand.cpp RateCommand.cpp Book.cpp CloseCommand.cpp Content.cpp HasReadBookCommand.cpp Terminal.cpp DisplayInRangeCommand.cpp LibraryLoader.cpp OpenCommand.cpp CommandFactory.cpp CommandFactory.h DeleteInRangeCommand.h AppendCommand.h PrintInfoBookCommand.h DeleteFromRowCommand.h PrintInfoCommand.h RemoveBookCommand.h DisplayFromRowCommand.h Author.h HasWrittenBookCommand.h DisplayAllCommand.h Content.h Person.h OpenCommand.h HasReadBookCommand.h ReadCommand.h Book.h AddAuthorCommand.h TextMatches.h RemoveCommand.h LibraryLoader.h Terminal.h MatchingRange.h ExitCommand.h SaveCommand.h SaveAsCommand.h RateCommand.h Reader.h AddBookCommand.h StringToDoubleConverter.h InsertCommand.h Command.h AddReaderCommand.h Library.h DisplayInRangeCommand.h CloseCommand.h StringToIntegerConverter.h SearchCommand.cpp SearchCommand.h SearchBookCommand.cpp SearchBookCommand.h -o exe.out",
+            "problemMatcher":"$gcc"
+        }
+    ]
+}
